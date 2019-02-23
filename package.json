@@ -1,0 +1,19 @@
+{
+  "name": "RevStackCore.DynamoDb.Client",
+  "version": "1.0.0",
+  "description": "DynamoDb POCO Client",
+  "main": "RevStackCore.DynamoDb.Client.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStackCore/DynamoDb.Client.git"
+  },
+  "author": "S. Francis",
+  "license": "AGPLv3",
+  "bugs": {
+		"url": "https://github.com/RevStackCore/DynamoDb.Client/issues"
+  },
+	"homepage": "https://github.com/RevStackCore/DynamoDb.Client"
+}

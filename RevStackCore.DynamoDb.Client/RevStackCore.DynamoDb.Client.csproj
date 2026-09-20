@@ -9,12 +9,13 @@
     <PackageLicenseUrl>https://github.com/RevStackCore/DynamoDb.Client/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://s3.amazonaws.com/revstack/icons/revstackcore-64x64.png</PackageIconUrl>
     <PackageTags>RevStackCore DynamoDb</PackageTags>	
-    <ReleaseVersion>1.0.1</ReleaseVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.3.17.6" />
     <PackageReference Include="ServiceStack.Text" Version="5.4.0" />
     <PackageReference Include="RevStackCore.DataAnnotations" Version="1.0.3" />
-    <PackageReference Include="RevStackCore.Aws.Support" Version="1.0.0" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\revstackcore\Aws.Support\RevStackCore.Aws.Support\RevStackCore.Aws.Support.csproj" />
   </ItemGroup>
 </Project>
